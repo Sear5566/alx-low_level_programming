@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
-* main - this is the main entry point (function)
-* puts - prints the string on the console
-* return - would always be 0, i.e success
+* main - entry point
+* Return: 0 (success)
 */
 int main(void)
 {
