@@ -12,9 +12,9 @@ char *cap_string(char *s)
 
 	while (s[scount] != '\0')
 	{
-		if (s[scount] >= 97 && s[scount] <= 122)
+		if (s[0] >= 97 && s[0] <= 122)
 		{
-			s[scount] -= 32;
+			s[0] -= 32;
 		}
 		if (s[scount] == ' ' || s[scount] == '\t' || s[scount] == '\n'
 		|| s[scount] == ',' || s[scount] == ';' || s[scount] == '.'
