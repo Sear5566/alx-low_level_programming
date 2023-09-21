@@ -12,7 +12,7 @@ char *leet(char *str)
 	char leetNumb[] = "4433007711";
 
 	sl = 0;
-	while (str[sl] != '\n')
+	while (str[sl] != '\0')
 	{
 		c = 0;
 		while (c < 10)
@@ -25,6 +25,5 @@ char *leet(char *str)
 		}
 		sl++;
 	}
-
 	return (str);
 }
