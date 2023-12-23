@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+
 hash_node_t *create_node(const char *key, const char *value);
 
 /**
