@@ -2,7 +2,8 @@
 #define HASH_TABLES_H
 
 #include <stdlib.h>
-
+#include <stdio.h>
+#include <stdbool.h>
 
 /**
  * struct hash_node_s - Node of a hash table
